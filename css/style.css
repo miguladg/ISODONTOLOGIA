@@ -19,7 +19,7 @@ html, body {
 h1, h2, h3, h4, h5, h6 {
 	font-weight: 500;
 	/* margin: 0px 0px 10px; */
-	color: #f2ecec;
+	color: #0e1d93;
 	font-family: "Open Sans", sans-serif;
 	text-transform: uppercase;
 }
@@ -681,7 +681,7 @@ section {
 }
 
 #main-menu ul li a:hover {
-	color:#FFF;
+	color:rgb(106, 32, 197);
 }
 
 #main-menu ul.nav>li>a:hover, #main-menu ul.nav>li>a:focus {
@@ -1842,7 +1842,7 @@ ul.timeline {
 
 .tabs .nav-tabs li.active a {
 	border-top: 2px solid #7EC13F;
-	background: #FFF;
+	background: rgb(255, 255, 255);
 	color: #272727;
 	font-weight: 700;
 	font-size: 16px;

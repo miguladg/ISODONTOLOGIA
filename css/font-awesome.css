@@ -1525,6 +1525,7 @@
 .fa-send:before,
 .fa-paper-plane:before {
   content: "\f1d8";
+/* color: blue; */
 }
 .fa-send-o:before,
 .fa-paper-plane-o:before {
