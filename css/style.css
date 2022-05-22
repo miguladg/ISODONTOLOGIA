@@ -745,13 +745,13 @@ section {
 	line-height: 70px;
 	text-transform: uppercase;
 	margin: 6px -10px;
-	color: #fff;
+	color: rgb(39, 34, 34);
 }
 
 .small {
     font-size: 20px;
     font-weight: 200;
-    color: #FFF;
+    color: rgb(20, 19, 19);
     margin: 30px 0px 0px;
     text-transform: uppercase;
 	font-weight: 600;
@@ -795,9 +795,10 @@ section {
 
 .slider-text-wrapper .btn {
 	margin-top: 60px;
-	border:2px solid #FFF;
+	border:2px solid rgb(54, 32, 221);
 	background:transparent;
-	color:#FFF;
+	color:rgb(13, 9, 127);
+	// esta parte es de los textos en movimientos de la letras del la primera seccion
 }
 
 .flex-control-nav {
@@ -874,7 +875,7 @@ section {
 }
 
 .slider-overlay {
-	repeat rgba(0, 0, 0, .4);
+	/* repeat: rgba(0, 0, 0, .4); */
 	position: absolute;
 	left: 0;
 	top: 0;
@@ -907,7 +908,7 @@ section {
 
 .flexslider .slides > li {
 	display: none;
-	-webkit-backface-visibility: hidden;
+	/* -webkit-backface-visibility: hidden; */
 }
 
 .flexslider .slides img {
@@ -1162,8 +1163,8 @@ html[xmlns] .slides {
 	margin-bottom:30px;
 }
 
-.tab2-services-box .services-info h4 {
-}
+/* .tab2-services-box .services-info .h4 { */
+/* } */
 
 .tab2-services-box .services-info p {
 	margin-bottom:0;
@@ -1571,7 +1572,7 @@ ul.timeline {
 
 .thumnail-img {
 	position: relative;
-	float: left;
+	float: left; //esta es la parte dende se da el orden del catalogo
 	display: inline-block;
 	width: 25%;
 	overflow: hidden;
